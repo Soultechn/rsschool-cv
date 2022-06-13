@@ -159,20 +159,26 @@
             </h2>
             <div class="code">
                 <pre>
-                    <code>let greetings = 'Hello',
-                        name = 'world';
-
-                    function message (a, b) {
-                        alert (a + ', ' + b + '!');
-
-                    message (greetings, name); // Hello, world!</code>
+                    <code>
+    function dataReverse(data) {
+        let out = [];
+        const n = data.length / 8;
+            for (i = n - 1; i >= 0; i = i - 1) {
+                for (j = 0; j <= 7; j = j + 1) {
+                    out[(n - 1 - i) * 8 + j] = data[i * 8 + j];
+                }
+            }
+        return out;
+    }</code>
                 <pre>
             </div>
             <h2 class="h2">
                 <span id="projects">Projects</span>
             </h2>
             <ul class="container" style="padding-left: 45px;">
-                <li>Only this CV so far</li>
+                <li>
+                    <a href="https://soultechn.github.io/rsschool-cv/" class="projectLink">This CV</a>
+                </li>
             </ul>
             <div class="container" style="padding-left: 40px;">
                 // updating in progress . . .

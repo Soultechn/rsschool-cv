@@ -19,8 +19,6 @@ html {
 }
 
 .nav {
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     display: flex;
     width: 1280px;
@@ -90,12 +88,7 @@ html {
     text-align: left;
     font-size: 20px;
     line-height: 28px;
-<<<<<<< HEAD
-    scroll-margin-top: 80px;
-=======
-    scroll-margin-top: 85px;
->>>>>>> 615b0c0318877aab17e21fcb64001cfd6fd5faec
-}
+    scroll-margin-top: 80px}
 
 .h-container {
     display: flex;
@@ -171,7 +164,7 @@ html {
 .code {
     display: flex;
     width: 90%;
-    height: 210px;
+    height: 300px;
     border-radius: 30px;
     background-color: rgb(41, 51, 61);
     color: rgb(218, 218, 218);
@@ -192,4 +185,9 @@ html {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 160px;
+}
+
+.projectLink {
+    color: rgb(41, 51, 61);
+    text-decoration: none;
 }
