@@ -158,19 +158,17 @@
                 <span id="code">Code</span>
             </h2>
             <div class="code">
-                <pre>
-                    <code>
+                <pre><code>
     function dataReverse(data) {
         let out = [];
         const n = data.length / 8;
             for (i = n - 1; i >= 0; i = i - 1) {
-                for (j = 0; j <= 7; j = j + 1) {
+                for (j = 0; j &lt;= 7; j = j + 1) {
                     out[(n - 1 - i) * 8 + j] = data[i * 8 + j];
                 }
             }
         return out;
-    }</code>
-                <pre>
+    }</code></pre>
             </div>
             <h2 class="h2">
                 <span id="projects">Projects</span>
